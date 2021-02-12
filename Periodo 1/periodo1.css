@@ -33,17 +33,47 @@ body
     font-family: 'Fraunces';
     font-size: 40px;
 }
+.txt
+{
+    position: absolute;
+    left: 1%;
+    top: 12%;
+    font-family: 'Fraunces';
+    font-size: 20px;
+}
 .boton
+{
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    background-color: rgb(23, 133, 133);
+    border: solid;
+    border-color: black;
+    width: 80px;
+    height: 35px;
+    color: black;
+    cursor: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boton:hover
+{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.semanas
 {
     position: absolute;
     top: 170px;
     left: 46%;
     background-color: rgb(23, 133, 133);
     border: solid;
-    width: 80px;
-    height: 35px;
+    border-color: black;
+    width: 85px;
+    height: 25px;
+    color: black;
+    cursor: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.boton:hover
+.semanas:hover
 {
  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -56,12 +86,7 @@ body
     left: 7%;
     top: 220px;
     background-color: rgb(99, 240, 169);
-    opacity: 50%;
-}
-.cuadro:hover
-{
     border-style: solid;
-    opacity: 75%;
 }
 .b
 {
@@ -80,4 +105,50 @@ body
     font-family: 'Fraunces';
     font-size: 50px; 
     opacity: 100%;
+}
+#semana3
+{
+position: absolute;
+top: 1800px;
+}
+#semana4
+{
+position: absolute;
+top: 3000px;
+}
+#semana5
+{
+position: absolute;
+top: 4200px;
+}
+#semana6
+{
+position: absolute;
+top: 5400px;
+}
+#semana7
+{
+position: absolute;
+top: 6600px;
+}
+#semana8
+{
+position: absolute;
+top: 7800px;
+}
+#semana9
+{
+position: absolute;
+top: 9000px;
+}
+#semana10
+{
+position: absolute;
+top: 10200px;
+}
+.im1
+{
+position: absolute;
+top: 300px;
+left: 20px;
 }
